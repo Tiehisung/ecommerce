@@ -1,0 +1,57 @@
+/* products  */
+
+#category-main-title{
+    text-transform: capitalize;
+    color: teal;
+    font-weight: bolder;
+}
+
+#products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  background: whitesmoke;
+  padding: 4ch 10%;
+}
+
+.product-cta {
+  padding: 4px;
+  border-radius: 1rem 1rem 0 0;
+  background-color: white;
+}
+
+#products-container img {
+  height: 200px;
+  width: 200px;
+}
+
+.product-text-cta {
+  box-shadow: 0 0 1px 0 rgb(210, 206, 206);
+  padding: 3px;
+  background: gainsboro;
+}
+
+.product-text-cta p {
+  padding: 3px;
+  margin: 0;
+  width: 190px;
+  height: 32px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#price-and-seemore {
+  color: orange;
+  font-size: large;
+  padding: 0 3px;
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#price-and-seemore a {
+  font-weight: 400;
+  font-size: small;
+}
